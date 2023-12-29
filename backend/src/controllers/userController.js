@@ -40,8 +40,6 @@ export const login = async (req, res) => {
 
     const user = await getUserByEmail(email);
 
-    console.log(user);
-
     if (!user) {
       return res.status(400).send("Usuário não existe!");
     }
@@ -59,8 +57,6 @@ export const login = async (req, res) => {
         expiresIn: "1h",
       }
     );
-
-    console.log(token);
 
     res.status(200).send({ auth: true, token: token });
   } catch (err) {

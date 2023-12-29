@@ -12,8 +12,8 @@ import MainTitle from "../styles/CoursesPage/MainTitle";
 import CourseCard from "../components/CourseCard/CourseCard";
 
 const MainTitleCourse = styled(MainTitle)`
-  font-size: 43px;
-  margin-top: 70px; 
+  font-size: 45px;
+  margin-top: 80px; 
   margin-bottom: 60px;
 `
 

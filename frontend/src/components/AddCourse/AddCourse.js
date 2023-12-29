@@ -178,7 +178,7 @@ function AddCourse() {
         name="course_class3"
         value={course.course_class3}
         onChange={handleChange}
-        placeholder="Primeira aula"
+        placeholder="Terceira aula"
         required
       />
       <Button type="submit">Enviar</Button>

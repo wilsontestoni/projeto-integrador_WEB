@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import ReactPlayer from "react-player";
-import video from "../../images/utilizando-o-codigo.mp4";
+// import video from "https://www.youtube.com/watch?v=23veejsZ5r4";
 
 const PlayerWrapper = styled.div`
   width: 80%;
@@ -13,7 +13,7 @@ const PlayerWrapper = styled.div`
 function NexusVideo() {
   return (
     <PlayerWrapper>
-      <ReactPlayer url={video} controls={true} width="80%" height="60%" />
+      <ReactPlayer url='https://www.youtube.com/watch?v=lTRiuFIWV54&t=10s' />
     </PlayerWrapper>
   );
 }

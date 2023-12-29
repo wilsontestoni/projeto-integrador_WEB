@@ -8,7 +8,6 @@ import MainTitle from "../styles/CoursesPage/MainTitle";
 import UsersHeader from "../components/UsersHeader/UsersHeader";
 import AddCourse from "../components/AddCourse/AddCourse";
 import UpdateCourse from "../components/UpdateCourse/UpdateCourse";
-// #10263b
 
 const FormWrapper = styled.div`
   width: 70%;

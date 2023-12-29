@@ -59,6 +59,11 @@ const BackGround = styled.div`
   background-color: #10263b;
 `;
 
+const Warning = styled.p`
+  text-align: center;
+  color: #D64F3A;
+`
+
 function User() {
   const token = localStorage.getItem("token");
   const data = jwt.decode(token);
@@ -72,7 +77,7 @@ function User() {
 
         <ContainerAcessCode>
           <h2>
-            Código de acesso aos cursos: <StyledCode>PROJETOE03</StyledCode>
+            Código de acesso aos cursos: <StyledCode>#######</StyledCode>
           </h2>
         </ContainerAcessCode>
 
@@ -97,7 +102,7 @@ function User() {
               <li>Clique em "Comprar agora"</li>
               <li>
                 No campo "Digite o código do seu cupom" insira o cupom{" "}
-                <StyledCode>PROJETOE03</StyledCode>
+                <StyledCode>#######</StyledCode>
               </li>
               <li>
                 Somente após a confirmação de que o cupom foi aplicado preencha
@@ -113,6 +118,7 @@ function User() {
             Caso ainda tenha dúvidas de como usar código, veja o vídeo do
             passo-a-passo.
           </h4>
+          <Warning>**Vídeo original retirado por mostrar o código promocional**</Warning>
         </MainContent>
         <NexusVideo />
       </Main>

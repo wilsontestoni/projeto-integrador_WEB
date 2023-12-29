@@ -12,12 +12,12 @@ import emailLogo from "../images/email.svg";
 import passwordLogo from "../images/password.svg";
 import nameLogo from "../images/nome.svg";
 import ResponseModal from "../components/ResponseModal/ResponseModal";
-import Logo from "../images/logoLogin.png"
+import Logo from "../images/logoLogin.png";
 import styled from "styled-components";
 
 const LogoStyle = styled.img`
   width: 170px;
-`
+`;
 
 function Signup() {
   const [userEmail, setUserEmail] = useState("");
@@ -52,7 +52,7 @@ function Signup() {
         email: userEmail,
         password: userPassword,
       });
-      
+
       setModalMsg(response.data);
       setShowModal(true);
       setStatusCode(response.status);
@@ -60,7 +60,7 @@ function Signup() {
     } catch (err) {
       setModalMsg(err.response.data);
       setShowModal(true);
-      setStatusCode(err.response.status)
+      setStatusCode(err.response.status);
     }
   };
 
@@ -126,7 +126,11 @@ function Signup() {
         </FormWrapper>
       </div>
       {showModal && (
-        <ResponseModal errorMsg={modalMsg} modalHandler={modalHandler} statusCode={statusCode}/>
+        <ResponseModal
+          errorMsg={modalMsg}
+          modalHandler={modalHandler}
+          statusCode={statusCode}
+        />
       )}
     </PageWrapper>
   );
