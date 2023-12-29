@@ -16,9 +16,6 @@
 
 ## Professores Orientadores: 
 <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Me. Adriano Felix Valente</a>, <br>
-<a href="https://www.linkedin.com/in/eduardo-savino-gomes-77833a10/">Dr. Eduardo Savino Gomes</a>, <br>
-<a href="https://www.linkedin.com/in/aimarlopes/">Me. Aimar Martins Lopes</a>, <br>
-<a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Bruno Alexander Rosetti de Quiroz</a>,<br>
 <a href="https://www.linkedin.com/in/jos%C3%A9-carlos-buesso-jr-15462234/">Me. Prof. José Carlos Buesso Jr</a>, <br>
 <a href="https://www.linkedin.com/in/francisco-escobar/">Me. Francisco de Souza Escobar</a>
 
@@ -30,14 +27,12 @@
 </p>
 
 ## Descrição: <br>
-<p>Educa Social é fruto do nosso projeto integrador no segundo semestre da faculdade. Nosso compromisso é proporcionar oportunidades educacionais gratuitas para aqueles que não têm recursos para investir em cursos, mas que buscam qualidade. </p>
-<p> Em parceria com o Educa Nexus, conseguimos um código de desconto exclusivo. Esse código permite que as pessoas tenham acesso a uma ampla variedade de cursos de forma totalmente gratuita. Acreditamos que o conhecimento transforma vidas, e queremos ser facilitadores desse processo.</p>
-<p>Caso a empresa parceira queira adicionar, editar ou remover algum curso, eles tem a possilibidade de fazer isso com uma conta administrativa sem precisar alterar o codigo</p>
+<p>Projeto web desenvolvido no 2º semestre do curso de Análise e Desenvolvimento de Sistemas (ADS) da faculdade, com o objetivo de apresentar e disponibilizar cursos gratuitos em parceria com a EducaNexus para os alunos.</p>
+<p>O projeto inclui uma lista dos cursos oferecidos de forma gratuita. Além disso, possui um sistema de login com dois tipos de usuários: administrador e usuário normal. O administrador tem acesso a funções como criar, remover e atualizar informações sobre os cursos na plataforma. Já o usuário normal tem acesso a um guia passo a passo sobre como se inscrever nos cursos gratuitos.</p>
 
 ## Objetivos: <br>
-- Disponibilizar cursos gratuitos para aqueles que não têm a capacidade de adquiri-los.
-- Facilitar o acesso à educação de qualidade para aqueles que precisam de ajuda, em parceria com a Educa Nexus, nossa empresa parceira.
-- Facilitar a gestão de cursos por meio de uma conta administrativa reforça nossa missão de tornar o processo educacional mais flexível e adaptável às necessidades em constante evolução.
+- Facilitar o acesso à educação de qualidade
+
 
 ## 💻 Tecnologias: <br>
 ### Front-end
@@ -79,16 +74,12 @@
         - `public`
         - `src`
             - `config`
+               - `database`
             - `controllers`
             - `images`
             - `models`
             - `routes`
             - `services`
-            - `.gitinore`
-            - `index.js`
-            - `package-lock.json`
-            - `package.json`
-            - `server.js`
   - `frontend`
       - `public`
       - `src`
@@ -97,10 +88,6 @@
          - `pages`
          - `routes`
          - `styles`
-         - `.gitignore`
-         - `config-override.js`
-         - `package-lock.json`
-         - `package.json`
 - `README.md`       
 
 ## Pré-requisitos
@@ -129,29 +116,6 @@
    ```
 4. Abra o navegador e acesse `http://localhost:3001/home` para visualizar o site.
 
-
-
-
-
-## 🗃 Histórico de lançamentos
-* 1 - 14/08/2023
-    * Início: Dia que foi determinado o tema;
-* 2 - 18/08/2023
-    * primeiras ideias
-* 3 - 31/08/2023
-    * Definido parceiro: Educa Nexus
-* 4 - 07/09/2023
-    * Primeiras ideias de como vai ser o site
-* 5 - 13/09/2023
-    * Desenvolvimento da Logo e do layout do site
-* 6 - 15/10/2023
-    * Início do desenvolvimento em HTML, CSS, JavaScript e React 
-* 7 - 01/11/2023
-    * Front-end concluido
-    * Início do Back-end criado em Node.js e mysql
-* 8 - 17/11/2023
-    * Finalização do site
-    * Ajustes finais
 
   
 ## 🎓 Referências
