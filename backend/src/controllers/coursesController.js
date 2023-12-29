@@ -68,10 +68,8 @@ export const updateCourse = async (req, res) => {
 
     const update = await updateCourseByName(courseName, updatedCourse);
 
-    console.log(update);
     res.status(200).send("Atualização feita com sucesso!");
   } catch (error) {
-    console.log(error);
     res.status(500).send("Erro interno do servidor.");
   }
 };

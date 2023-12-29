@@ -1,7 +1,20 @@
 // Arquivo para adicionar os cursos no bd :)
+import Courses from "../../models/Courses.js";
+import User from "../../models/User.js";
 
-import Courses from "./models/Courses.js";
-import User from "./models/User.js";
+
+async function seedAdminUser() {
+  const adminUser = await Courses.create({
+    name: "Administrador da silva",
+    email: "administradorsilva@gmail.com",
+    password: "12341234",
+    user_type: "administrador"
+  });
+  console.log("Admin user added:", adminUser.name);
+}
+
+seedAdminUser();
+
 
 async function seed16() {
   const course = await Courses.create({
