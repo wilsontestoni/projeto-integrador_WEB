@@ -27,10 +27,11 @@
 </p>
 
 ## Descrição: <br>
-<p>Projeto web desenvolvido no 2º semestre do curso de Análise e Desenvolvimento de Sistemas (ADS) da faculdade, com o objetivo de apresentar e disponibilizar cursos gratuitos em parceria com a EducaNexus para os alunos.</p>
-<p>O projeto inclui uma lista dos cursos oferecidos de forma gratuita. Além disso, possui um sistema de login com dois tipos de usuários: administrador e usuário normal. O administrador tem acesso a funções como criar, remover e atualizar informações sobre os cursos na plataforma. Já o usuário normal tem acesso a um guia passo a passo sobre como se inscrever nos cursos gratuitos.</p>
+<p>Projeto web desenvolvido no 2º semestre do curso de Análise e Desenvolvimento de Sistemas (ADS), com o objetivo de apresentar e disponibilizar cursos de forma gratuita para os alunos. Os cursos em questão foram disponibilizados pela EducaNexus.</p>
+<p>O projeto abrange não apenas as páginas principais, como home, cadastro e login, mas também inclui uma página dedicada a cada categoria de curso. Além disso, integra um sistema de login com dois perfis de usuários: administrador e usuário comum. O administrador desfruta de privilégios que possibilitam a criação, remoção e atualização de informações relacionadas aos cursos na plataforma. Por outro lado, o usuário comum tem acesso a um guia detalhado, passo a passo, que orienta sobre como se inscrever nos cursos gratuitos.</p>
 
-## Objetivos: <br>
+
+## Objetivo: <br>
 - Facilitar o acesso à educação de qualidade
 
 
@@ -48,7 +49,6 @@
 ### UX/UI Design
 - <a href="https://www.figma.com/file/M33fxI2bjVKQenw25Oj4E4/Wireframe-P03?type=design&node-id=0-1&mode=design"> Wireframe</a><br>
 - <a href="https://www.figma.com/file/rRDqPpipYdsBG4X91Bhqaa/Layout-E03?type=design&node-id=0-1&mode=design"> Desenvolvimento de layout</a><br>
-- <a href="https://www.figma.com/file/oXg4vH8vC21UGe0r3tfDI9/Teste-de-usabilidade?type=design&node-id=0%3A1&mode=design&t=Vbf9TaJfVJ5tTMU6-1">Teste de usabilidade</a><br>
 <br>
 
 ## 💻 Bibliotecas: <br> 
@@ -109,13 +109,31 @@
    cd backend
    npm install
    ```
-3. Inicie o terminal na pasta do projeto, e rode o comando:
+3. Crie um BD no MySQL com o nome pi (*Caso queira mudar o nome do banco, será preciso alterar as configurações do sequelize no código*):
    ```sh
-   npm start dentro da pasta do frontend
-   npm run dev dentro da pasta do backend
+   CREATE DATABASE pi;
+   USE pi;
    ```
-4. Abra o navegador e acesse `http://localhost:3001/home` para visualizar o site.
+4. Depois de ter criado o banco, crie as tabelas e coloque os dados. Você pode fazer esse passo de duas maneiras
+4-1. Importar as tabelas junto com dados para o mySQL usando o damp que está disponível na pasta (backend/src/config
+/database/);
+4-2. A segunda maneira seria usar o sequilize para criar as tabelas e também inserir os dados:
+    ```sh    
+    // Passo 1 - Criar as tabelas executando o arquivo createTable.js pelo terminal
+    node createTable
+    
+    // Passo 2 - Inserir os dados executando o arquivo seed.js pelo terminal
+    node seed
+   ```
 
+5. Agora, abra um terminal na dentro da pasta frontend e outro na pasta backend, e rode o comando:
+   ```sh
+   // terminal na pasta frontend
+   npm start
+   // terminal na pasta do backend
+   npm run dev
+   ```
+6. Por fim, abra o navegador e acesse `http://localhost:3001/home` para visualizar a home do site.
 
   
 ## 🎓 Referências
