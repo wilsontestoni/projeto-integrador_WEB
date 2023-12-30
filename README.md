@@ -114,7 +114,7 @@
    CREATE DATABASE pi;
    USE pi;
    ```
-4. Depois de ter criado o banco, crie as tabelas e coloque os dados. Você pode fazer esse passo de duas maneiras<br/>
+4. Depois de ter criado o banco, crie as tabelas e coloque os dados. Você pode fazer esse passo de duas maneiras <br/>
   4-1. Importar as tabelas junto com dados para o mySQL usando o damp que está disponível na pasta (backend/src/config
   /database/);<br/>  
   4-2. A segunda maneira seria usar o sequilize para criar as tabelas e também inserir os dados:
