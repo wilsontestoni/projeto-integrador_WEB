@@ -28,7 +28,7 @@
 
 ## Descrição: <br>
 <p>Projeto web desenvolvido no 2º semestre do curso de Análise e Desenvolvimento de Sistemas (ADS), com o objetivo de apresentar e disponibilizar cursos de forma gratuita para os alunos. Os cursos em questão foram disponibilizados pela EducaNexus.</p>
-<p>O projeto abrange não apenas as páginas principais, como home, cadastro e login, mas também inclui uma página dedicada a cada categoria de curso. Além disso, integra um sistema de login com dois perfis de usuários: administrador e usuário comum. O administrador desfruta de privilégios que possibilitam a criação, remoção e atualização de informações relacionadas aos cursos na plataforma. Por outro lado, o usuário comum tem acesso a um guia detalhado, passo a passo, que orienta sobre como se inscrever nos cursos gratuitos.</p>
+<p>O projeto abrange não apenas as páginas principais, como home, cadastro e login, mas também inclui uma página dedicada para cada categoria dos cursos. Além disso, integra um sistema de login com dois perfis de usuários: administrador e usuário comum. O administrador desfruta de privilégios que possibilitam a criação, remoção e atualização de informações relacionadas aos cursos na plataforma. Por outro lado, o usuário comum tem acesso a um guia detalhado, passo a passo, que orienta sobre como se inscrever nos cursos gratuitos.</p>
 
 
 ## Objetivo: <br>
