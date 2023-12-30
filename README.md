@@ -64,30 +64,25 @@
   <p>jsonwebtoken: Utilizado para gerar token de autenticação no momento do login</p>
 
 ## 🛠 Estrutura de pastas
-- `Documentos`
-    - `Design de Interface Digital`
-    - `Modelagem de Software e Arquitetura de Sistemas`
-- `imagens`
-    - `logo.png`
-- `src`
-    - `backend`
-        - `public`
-        - `src`
-            - `config`
-               - `database`
-            - `controllers`
-            - `images`
-            - `models`
-            - `routes`
-            - `services`
-  - `frontend`
-      - `public`
-      - `src`
-         - `components`
-         - `images`
-         - `pages`
-         - `routes`
-         - `styles`
+
+- `backend`
+  - `public`
+  - `src`
+  - `config`
+    - `database`
+  - `controllers`
+  - `images`
+  - `models`
+  - `routes`
+  - `services`
+- `frontend`
+  - `public`
+  - `src`
+     - `components`
+     - `images`
+     - `pages`
+     - `routes`
+     - `styles`
 - `README.md`       
 
 ## Pré-requisitos
@@ -137,8 +132,7 @@
 
   
 ## 🎓 Referências
-1. <https://github.com/>
-2. <https://fonts.google.com/>
-3. <https://https://figma.com/>
-4. <https://getbootstrap.com/>
-5. <https://react.dev/>
+1. <https://fonts.google.com/>
+2. <https://https://figma.com/>
+3. <https://getbootstrap.com/>
+4. <https://react.dev/>
