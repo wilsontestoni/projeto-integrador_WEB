@@ -115,11 +115,9 @@
    USE pi;
    ```
 4. Depois de ter criado o banco, crie as tabelas e coloque os dados. Você pode fazer esse passo de duas maneiras
-   
-4-1. Importar as tabelas junto com dados para o mySQL usando o damp que está disponível na pasta (backend/src/config
-/database/);  
-
-4-2. A segunda maneira seria usar o sequilize para criar as tabelas e também inserir os dados:
+  4-1. Importar as tabelas junto com dados para o mySQL usando o damp que está disponível na pasta (backend/src/config
+  /database/);  
+  4-2. A segunda maneira seria usar o sequilize para criar as tabelas e também inserir os dados:
     ```sh    
     // Passo 1 - Criar as tabelas executando o arquivo createTable.js pelo terminal
     node createTable
@@ -128,14 +126,14 @@
     node seed
    ```
 
-6. Agora, abra um terminal na dentro da pasta frontend e outro na pasta backend, e rode o comando:
+5. Agora, abra um terminal na dentro da pasta frontend e outro na pasta backend, e rode o comando:
    ```sh
    // terminal na pasta frontend
    npm start
    // terminal na pasta do backend
    npm run dev
    ```
-7. Por fim, abra o navegador e acesse `http://localhost:3001/home` para visualizar a home do site.
+6. Por fim, abra o navegador e acesse `http://localhost:3001/home` para visualizar a home do site.
 
   
 ## 🎓 Referências
